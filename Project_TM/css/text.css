@@ -1,0 +1,9 @@
+.text{
+    font-family:"Open+Sans";
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,74 @@
+.header{
+    background-color:#000000;
+    margin: 0 auto;
+    /* margin-bottom: 34px; */
+     /* padding: 80px 0px; */
+   }
+   .page-name{
+       padding-top: 20px;
+       padding-bottom: 19px;
+       margin-left: 65px;
+   }
+   .ax{
+       color:  #FFFFFF;
+       font-family: "Raleway";
+       font-weight: 400;
+       font-size: 30px;
+       line-height: 35px;
+   }
+   .ax::after{
+       content: "IT";
+       color:  #EC7979;
+       font-family: "Raleway";
+       font-weight: 400;
+       font-size: 30px;
+       line-height: 35px;
+
+   }
+   .page-link{
+        padding-right: 48px;
+        transition: 0.2s;
+        /* color: #FFFFFF;
+        opacity: 70%; */
+   }
+   .page-link:hover{
+    transform: scale(1.2);
+     opacity: 60%;
+    transition: 0.2s;
+    /* border-bottom: 3px solid #fff; */
+
+   }
+.decor{
+       color: #FFFFFF;
+       opacity: 70%;
+       font-weight: 600;
+       font-family: "Open Sans";
+       font-size: 15px;
+       line-height: 20px;
+       cursor: pointer; 
+   }
+ 
+   .decor:hover{
+       
+    border-bottom: 3px solid #fff;
+   } 
+  .all-links{
+      display: flex;
+      flex-direction: row;
+      justify-content:space-around;
+     
+      /* margin-bottom: 18px;*/
+      /* margin-left: 48px; */
+  } 
+  .all-links:last-child{
+      margin-left: 0px;
+  }
+  .header-wrap{
+      display: flex;
+      justify-content: space-between;
+  }
+ .page-links{
+     margin: auto;
+     margin-right: 0px;
+     margin-left: 00px;
+ }
